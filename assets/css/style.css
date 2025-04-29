@@ -57,7 +57,7 @@ body {
 
 .div-content .info-eu {
     position: absolute;
-    left: 600px;
+    left: 620px;
     top: 20px;
     width: 350px;
     height: 400px;
@@ -80,6 +80,98 @@ ul li.item-eu {
     padding: 5px;
 }
 
+ul li.item-eu a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #000000;
+}
+
 ul li.item-eu .icon {
     color: cornflowerblue;
 }
+
+.bio {
+    font-size: 18px;
+    margin-top: 5px;
+    position: absolute;
+    top: 230px;
+    left: 640px;
+    width: 280px;
+}
+
+.bio hr {
+    border: 4px solid cornflowerblue;
+    margin: 10px 0 15px 0;
+    width: 50px;
+    border-radius: 20px;
+}
+
+.bio p {
+    font-size: 18px;
+    line-height: 1.2;
+    margin-bottom: 5px;
+    text-align: justify;
+}
+
+.experiencia {
+    font-size: 18px;
+    margin-top: 5px;
+    position: absolute;
+    top: 500px;
+    left: 640px;
+    width: 280px;
+}
+
+.experiencia hr {
+    border: 4px solid cornflowerblue;
+    margin: 10px 0 15px 0;
+    width: 50px;
+    border-radius: 20px;
+}
+.experiencia p {
+    font-size: 18px;
+    line-height: 1.2;
+    margin-bottom: 5px;
+    text-align: justify;
+}
+
+.habilidades {
+    position: absolute;
+    left: 1040px;
+    top: 20px;
+    width: 400px;
+    height: 280px;
+    background-color: rgb(242, 243, 245);
+    border-radius: 20px; 
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.habilidades h2 {
+    color: cornflowerblue;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+ul li.linguagens-itens { 
+    text-decoration: none;
+    font-size: 18px;
+    list-style-type: none;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.icon-linguagens img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.linguagens-itens i {
+    color: cornflowerblue;
+    margin-right: 10px;
+    font-size: 14px;
+}
+

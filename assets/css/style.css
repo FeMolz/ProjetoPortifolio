@@ -232,12 +232,16 @@ ul li.itens-idiomas {
 }
 
 .certificados ul li.itens-certificado { 
-    text-decoration: none;
     font-size: 18px;
     list-style-type: none;
     padding: 5px;
     display: flex;
     align-items: center;
+}
+
+.certificados ul li.itens-certificado a {
+    text-decoration: none;
+    color: #000000;
 }
 
 .contato {

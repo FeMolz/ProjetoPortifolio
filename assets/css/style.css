@@ -140,7 +140,7 @@ ul li.item-eu .icon {
     left: 1040px;
     top: 20px;
     width: 400px;
-    height: 280px;
+    height: 319px;
     background-color: rgb(242, 243, 245);
     border-radius: 20px; 
     padding: 20px;
@@ -175,3 +175,99 @@ ul li.linguagens-itens {
     font-size: 14px;
 }
 
+.idiomas {
+    position: absolute;
+    left: 1380px;
+    top: 40px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+ul li.itens-idiomas { 
+    text-decoration: none;
+    font-size: 18px;
+    list-style-type: none;
+    padding: 5px;
+}
+
+.bandeira img {
+    width: 30px;
+    height: 30px;
+}
+
+.ferramentas {
+    position: absolute;
+    left: 1040px;
+    top: 345px;
+    background-color: rgb(242, 243, 245);
+    border-radius: 20px;
+    height: 60px;
+    width: 400px;
+}
+
+.ferramentas .icon-ferramentas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px; 
+    height: 100%;
+}
+
+.certificados {
+    position: absolute;
+    left: 1040px;
+    top: 425px;
+    height: 60px;
+    width: 400px;
+}
+
+.certificados h2 {
+    font-size: 27px;
+}
+.certificados hr {
+    border: 4px solid cornflowerblue;
+    margin: 10px 0 15px 0;
+    width: 50px;
+    border-radius: 20px;
+}
+
+.certificados ul li.itens-certificado { 
+    text-decoration: none;
+    font-size: 18px;
+    list-style-type: none;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.contato {
+    position: absolute;
+    left: 1370px;
+    top: 500px;
+    width: 60px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.contato-imagens {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+}
+
+.contato-imagens img {
+    width: 40px;
+    height: 40px;
+}
+
+.contato-imagens img:hover {
+    transform: scale(1.3);
+    transition: 0.3s;
+}
